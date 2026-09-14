@@ -1,0 +1,9 @@
+{
+  "analysis_version": "0.42.0",
+  "operating_points": 273,
+  "operating_points_with_group_url": 181,
+  "operating_points_with_source_identity": 273,
+  "operating_points_without_group_url": 92,
+  "policy": "Unavailable group-level URLs remain missing; archive or package identity and checksum are retained instead.",
+  "study_rows": 4104
+}

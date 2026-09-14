@@ -1,0 +1,9 @@
+Source,Acquisition role,Route-specific records or projects screened,Reviews represented after parsing
+Historical Cochrane,Benchmark corpus,63,63
+Modern Cochrane,Format validation,2,2
+OSF,Repository discovery,"1,152",10
+Zenodo,Repository discovery,799,5
+Figshare,Repository discovery,262,2
+Dryad,Repository discovery,11,0
+SRDR+,Repository discovery,172,0
+PubMed Central,Machine-readable literature census,"1,518",300

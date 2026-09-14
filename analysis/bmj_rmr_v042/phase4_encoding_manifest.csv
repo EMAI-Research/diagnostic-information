@@ -1,0 +1,5 @@
+question,role,color_hex,grayscale_hex,marker,line_style,hatch
+1,operating point,#0072B2,#111111,o,-,
+2,expected information,#009E73,#3D3D3D,s,--,///
+3,observed result,#CC79A7,#696969,^,:,xx
+4,action,#E69F00,#969696,D,-.,..

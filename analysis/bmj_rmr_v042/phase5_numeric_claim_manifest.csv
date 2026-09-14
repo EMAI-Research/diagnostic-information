@@ -1,0 +1,74 @@
+token,machine_value,rendered_value,source_file,source_field,claim_id,rounding_rule
+POINTS,273,273,analysis/bmj_rmr_v042/phase3_summary.json,operating_points,C001,integer
+REVIEWS,210,210,analysis/bmj_rmr_v042/standard_anchor_summary.csv,reviews at p=0.20,C001,integer
+CANONICAL_ROWS,4104,4104,analysis/bmj_rmr_v042/source_trace_summary.json,study_rows,C002; C011,integer without thousands separator
+RAW_ROWS,4127,4127,analysis/bmj_rmr_v042/run_manifest.json,fixed_reference_sample.raw_normalized_rows_joined,C002,integer without thousands separator
+EXCLUDED_ROWS,23,23,analysis/bmj_rmr_v042/run_manifest.json,fixed_reference_sample.excluded_noncanonical_sheet_rows,C002,integer
+ANCHOR_5_PERCENT,0.05,5%,analysis/bmj_rmr_v042/standard_anchor_summary.csv,starting_probability=0.05,C012,"percent, 0 decimals"
+ENTROPY_5,0.2863969571159562,0.286,analysis/bmj_rmr_v042/standard_anchor_summary.csv,starting_entropy_bits at p=0.05,C012,"decimal, 3 places"
+INFO_MEDIAN_5,0.0667782373125235,0.067,analysis/bmj_rmr_v042/standard_anchor_summary.csv,information_bits_median at p=0.05,C012,"decimal, 3 places"
+RHO_5,0.9534594859841747,0.953,analysis/bmj_rmr_v042/standard_anchor_summary.csv,spearman_information_vs_youden_j at p=0.05,C013,"decimal, 3 places"
+POS_INCREASE_5,273,273,analysis/bmj_rmr_v042/standard_anchor_summary.csv,positive_result_increases_entropy_count at p=0.05,C016,integer
+NEG_INCREASE_5,0,0,analysis/bmj_rmr_v042/standard_anchor_summary.csv,negative_result_increases_entropy_count at p=0.05,C016,integer
+ANCHOR_20_PERCENT,0.2,20%,analysis/bmj_rmr_v042/standard_anchor_summary.csv,starting_probability=0.2,C012,"percent, 0 decimals"
+ENTROPY_20,0.7219280948873623,0.722,analysis/bmj_rmr_v042/standard_anchor_summary.csv,starting_entropy_bits at p=0.2,C012,"decimal, 3 places"
+INFO_MEDIAN_20,0.2109706019808146,0.211,analysis/bmj_rmr_v042/standard_anchor_summary.csv,information_bits_median at p=0.2,C012,"decimal, 3 places"
+RHO_20,0.9749161315284115,0.975,analysis/bmj_rmr_v042/standard_anchor_summary.csv,spearman_information_vs_youden_j at p=0.2,C013,"decimal, 3 places"
+POS_INCREASE_20,232,232,analysis/bmj_rmr_v042/standard_anchor_summary.csv,positive_result_increases_entropy_count at p=0.2,C016,integer
+NEG_INCREASE_20,0,0,analysis/bmj_rmr_v042/standard_anchor_summary.csv,negative_result_increases_entropy_count at p=0.2,C016,integer
+ANCHOR_50_PERCENT,0.5,50%,analysis/bmj_rmr_v042/standard_anchor_summary.csv,starting_probability=0.5,C012,"percent, 0 decimals"
+ENTROPY_50,1.0,1.000,analysis/bmj_rmr_v042/standard_anchor_summary.csv,starting_entropy_bits at p=0.5,C012,"decimal, 3 places"
+INFO_MEDIAN_50,0.3136224467907832,0.314,analysis/bmj_rmr_v042/standard_anchor_summary.csv,information_bits_median at p=0.5,C012,"decimal, 3 places"
+RHO_50,0.9917918599219587,0.992,analysis/bmj_rmr_v042/standard_anchor_summary.csv,spearman_information_vs_youden_j at p=0.5,C013,"decimal, 3 places"
+POS_INCREASE_50,0,0,analysis/bmj_rmr_v042/standard_anchor_summary.csv,positive_result_increases_entropy_count at p=0.5,C016,integer
+NEG_INCREASE_50,0,0,analysis/bmj_rmr_v042/standard_anchor_summary.csv,negative_result_increases_entropy_count at p=0.5,C016,integer
+FRACTION_MEDIAN_20,0.2922321536935489,29.2%,analysis/bmj_rmr_v042/standard_anchor_summary.csv,fraction_entropy_removed_median at p=0.20,C012,"percent, 1 decimal"
+CONTINUITY_CORRECTION,0.5,0.5,scripts/cochrane_dta_atlas.py,fit_bivariate_reml four-cell correction,C006,exact method constant
+UNCERTAINTY_DRAWS,20000,20000,analysis/bmj_rmr_v042/phase3_summary.json,uncertainty_draws_per_operating_point,C007,integer without thousands separator
+FIDELITY_POINTS,92,92,analysis/bmj_rmr_v042/source_summary_fidelity_summary.json,operating_points,C003; C026,integer
+FIDELITY_SE_MEDIAN,0.021745160454734958,0.021745,analysis/bmj_rmr_v042/source_summary_fidelity_summary.json,median_absolute_sensitivity_difference,C003; C026,"decimal, 6 places"
+FIDELITY_SP_MEDIAN,0.016653233474312468,0.016653,analysis/bmj_rmr_v042/source_summary_fidelity_summary.json,median_absolute_specificity_difference,C003; C026,"decimal, 6 places"
+FIDELITY_SE_MAX,0.39842669094416727,0.398427,analysis/bmj_rmr_v042/source_summary_fidelity_summary.json,maximum_absolute_sensitivity_difference,C003; C026,"decimal, 6 places"
+FIDELITY_SP_MAX,0.09088110578545483,0.090881,analysis/bmj_rmr_v042/source_summary_fidelity_summary.json,maximum_absolute_specificity_difference,C003; C026,"decimal, 6 places"
+FIDELITY_LARGE_COUNT,3,3,analysis/bmj_rmr_v042/source_summary_fidelity_summary.json,points_with_either_absolute_difference_at_least_0_10,C003; C026,integer
+AUDIT_DECISIONS,50,50,analysis/bmj_rmr_v042/manual_audit_summary.json,tables,C004,integer
+AUDIT_EXTRACTED_TABLES,30,30,analysis/bmj_rmr_v042/manual_audit_summary.json,transcription_error_denominator_extracted_tables,C004,integer
+AUDIT_INCLUDED_TABLES,27,27,analysis/bmj_rmr_v042/manual_audit_summary.json,included_tables,C004,integer
+AUDIT_ORIENTATION_TABLES,3,3,analysis/bmj_rmr_v042/manual_audit_summary.json,orientation_safeguard_tables,C004; C005,integer
+AUDIT_REJECTED_TABLES,20,20,analysis/bmj_rmr_v042/manual_audit_summary.json,rejected_near_miss_tables,C004,integer
+AUDIT_ROWS,410,410,analysis/bmj_rmr_v042/manual_audit_summary.json,normalized_rows_checked,C004,integer
+AUDIT_CELLS,1640,1640,analysis/bmj_rmr_v042/manual_audit_summary.json,normalized_cells_checked,C004,integer
+AUDIT_TRANSCRIPTION_ERRORS,0,0,analysis/bmj_rmr_v042/manual_audit_summary.json,recorded_transcription_errors,C004,integer
+AUDIT_ACCEPTANCE_ERRORS,0,0,analysis/bmj_rmr_v042/manual_audit_summary.json,acceptance_error_numerator,C004,integer
+ORIENTATION_GROUPS,11,11,analysis/bmj_rmr_v042/orientation_audit_summary.json,groups,C005,integer
+ORIENTATION_ROWS,86,86,analysis/bmj_rmr_v042/orientation_audit_summary.json,study_rows,C005,integer
+POINTS_WITH_URL,181,181,analysis/bmj_rmr_v042/source_trace_summary.json,operating_points_with_group_url,C011,integer
+POINTS_WITHOUT_URL,92,92,analysis/bmj_rmr_v042/source_trace_summary.json,operating_points_without_group_url,C011,integer
+EQUAL_J_INFO_DIFF,0.010414390007024044,0.010414,analysis/bmj_rmr_v042/theoretical_non_equivalence_summary.json,equal_youden_different_information.absolute_information_difference_bits,C014,"decimal, 6 places"
+NEAR_EQUAL_INFO_DIFF,9.000394234356945e-05,0.000090,analysis/bmj_rmr_v042/theoretical_non_equivalence_summary.json,near_equal_information_different_post_negative.absolute_information_difference_bits,C015,"decimal, 6 places"
+NEAR_EQUAL_POSTNEG_PP,10.821657273472807,10.8,analysis/bmj_rmr_v042/theoretical_non_equivalence_summary.json,near_equal_information_different_post_negative.absolute_post_negative_difference,C015,"percentage points, 1 decimal"
+THEORETICAL_CROSSING_PERCENT,0.2857658800041181,28.6%,analysis/bmj_rmr_v042/theoretical_non_equivalence_summary.json,probability_dependent_information_crossing.numerical_root,C022,"percent, 1 decimal"
+SENSITIVITY_MEDIAN_INFO_DIFF,0.032666400174824306,0.032666,analysis/bmj_rmr_v042/estimator_sensitivity_summary.json,median_absolute_information_bits_at_20_percent_difference,C019,"decimal, 6 places"
+SENSITIVITY_MAX_INFO_DIFF,0.18140317288030164,0.181403,analysis/bmj_rmr_v042/estimator_sensitivity_summary.json,maximum_absolute_information_bits_at_20_percent_difference,C019,"decimal, 6 places"
+EXPLORATORY_CONTRAST_COUNT,49,49,analysis/bmj_rmr_v042/exploratory_within_review_contrasts_summary.json,classified_contrasts,C020,integer
+TRADEOFF_COUNT,32,32,analysis/bmj_rmr_v042/exploratory_within_review_contrasts_summary.json,tradeoff_contrasts,C020,integer
+SAME_PARTICIPANTS_COUNT,0,0,analysis/bmj_rmr_v042/exploratory_within_review_contrasts_summary.json,same_participants_established_contrasts,C020,integer
+COVARIANCE_COUNT,0,0,analysis/bmj_rmr_v042/exploratory_within_review_contrasts_summary.json,cross_test_covariance_available_contrasts,C020,integer
+PAIRED_SUPPORTED_COUNT,0,0,analysis/bmj_rmr_v042/exploratory_within_review_contrasts_summary.json,paired_inference_supported_contrasts,C020,integer
+COMPOSITION_RESTRICTED_COUNT,23,23,analysis/bmj_rmr_v042/phase4_figure_captions.csv,Figure S7 caption,C020,integer parsed from locked display caption
+RECOVERY_SCENARIOS,24,24,analysis/bmj_rmr_v042/reml_recovery_summary.json,replicates,C008,integer
+RECOVERY_SE_PERCENT,0.875,87.5%,analysis/bmj_rmr_v042/reml_recovery_summary.json,sensitivity_scenario_inclusion_fraction,C008,"percent, 1 decimal"
+RECOVERY_SP_PERCENT,0.875,87.5%,analysis/bmj_rmr_v042/reml_recovery_summary.json,specificity_scenario_inclusion_fraction,C008,"percent, 1 decimal"
+BOUNDARY_CORRELATION_FLAGS,70,70,analysis/bmj_rmr_v042/reml_diagnostics_summary.json,absolute_between_correlation_at_least_0_99,C009,integer
+SINGULAR_FLAGS,6,6,analysis/bmj_rmr_v042/reml_diagnostics_summary.json,near_singular_between_covariance_min_eigenvalue_below_1e_8,C009,integer
+GRADIENT_FLAGS,7,7,analysis/bmj_rmr_v042/reml_diagnostics_summary.json,optimizer_gradient_above_1e_4,C009,integer
+CEA_REML_CROSSING_PERCENT,0.12802661088816616,12.8027%,analysis/bmj_rmr_v042/phase3_summary.json,empirical_cea_crossing.canonical_reml_probability,C017,"percent, 4 decimals"
+CEA_GH15_CROSSING_PERCENT,0.38086130898547527,38.0861%,analysis/bmj_rmr_v042/phase3_summary.json,empirical_cea_crossing.regularized_gh15_probability,C017,"percent, 4 decimals"
+APPENDICITIS_STUDIES,11,11,analysis/bmj_rmr_v042/phase3_summary.json,appendicitis_worked_profile.studies,C018,integer
+APPENDICITIS_SE_PERCENT,0.9171852142026437,91.7%,analysis/bmj_rmr_v042/phase3_summary.json,appendicitis_worked_profile.sensitivity,C018,"percent, 1 decimal"
+APPENDICITIS_SP_PERCENT,0.960948356423556,96.1%,analysis/bmj_rmr_v042/phase3_summary.json,appendicitis_worked_profile.specificity,C018,"percent, 1 decimal"
+APPENDICITIS_INFO,0.4775849208675434,0.4776,analysis/bmj_rmr_v042/phase3_summary.json,appendicitis_worked_profile.information_bits_at_20_percent,C018,"decimal, 4 places"
+APPENDICITIS_LR_POSITIVE,23.48646894738872,23.4865,analysis/bmj_rmr_v042/appendicitis_worked_profile.csv,Positive likelihood ratio.value,C023,"decimal, 4 places"
+APPENDICITIS_LR_NEGATIVE,0.086180266862181,0.0862,analysis/bmj_rmr_v042/appendicitis_worked_profile.csv,Negative likelihood ratio.value,C023,"decimal, 4 places"
+APPENDICITIS_POSTPOS_PERCENT,0.8544738501094369,85.4%,analysis/bmj_rmr_v042/phase3_summary.json,appendicitis_worked_profile.post_positive_probability_at_20_percent,C024,"percent, 1 decimal"
+APPENDICITIS_POSTNEG_PERCENT,0.021090666890318,2.1%,analysis/bmj_rmr_v042/phase3_summary.json,appendicitis_worked_profile.post_negative_probability_at_20_percent,C024,"percent, 1 decimal"
